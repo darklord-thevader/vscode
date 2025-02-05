@@ -1,0 +1,14 @@
+{
+    "remote.SSH.remotePlatform": "linux",
+    "remote.SSH.defaultExtensions": [
+        "ms-vscode.remote-ssh"
+    ],
+    "remote.SSH.showLoginTerminal": false,
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.enableDynamicForwarding": false,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true
+    }
+}
