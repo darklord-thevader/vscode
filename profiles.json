@@ -1,0 +1,25 @@
+{
+    "profiles": {
+        "default": {
+            "extensions": ["ms-vscode.remote-ssh"],
+            "resourceLimits": {
+                "cpuPriority": 10,
+                "memoryLimit": "1G"
+            }
+        },
+        "python": {
+            "extensions": ["ms-vscode.remote-ssh", "ms-python.python"],
+            "resourceLimits": {
+                "cpuPriority": 5,
+                "memoryLimit": "2G"
+            }
+        },
+        "web": {
+            "extensions": ["ms-vscode.remote-ssh", "dbaeumer.vscode-eslint", "ritwickdey.liveserver"],
+            "resourceLimits": {
+                "cpuPriority": 5,
+                "memoryLimit": "1.5G"
+            }
+        }
+    }
+}
