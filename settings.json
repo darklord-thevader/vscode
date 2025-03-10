@@ -3,6 +3,8 @@
     "remote.SSH.defaultExtensions": [
         "ms-vscode.remote-ssh"
     ],
+    "remote.SSH.serverDownload": "auto",
+    "remote.SSH.connectTimeout": 30,
     "remote.SSH.showLoginTerminal": false,
     "remote.SSH.useLocalServer": false,
     "remote.SSH.enableDynamicForwarding": false,
@@ -10,5 +12,9 @@
         "**/.git/objects/**": true,
         "**/node_modules/**": true,
         "**/tmp/**": true
-    }
+    },
+    "vscode-minimal-manager.idleTimeout": 3600,
+    "vscode-minimal-manager.enableAutoSuspend": true,
+    "vscode-minimal-manager.enableResourceLimits": true,
+    "vscode-minimal-manager.activeProfile": "default"
 }
